@@ -1,7 +1,7 @@
 package com.rastoychev18.vacationmanager.service;
 
 import com.rastoychev18.vacationmanager.dao.PersonDao;
-import com.rastoychev18.vacationmanager.model.Person;
+import com.rastoychev18.vacationmanager.model.User;
 
 public class PersonService {
     private final PersonDao personDao;
@@ -10,7 +10,7 @@ public class PersonService {
         this.personDao = personDao;
     }
 
-    public int addPerson(Person person){
+    public int addPerson(User person){
         return personDao.insertPerson(person);
     }
 }

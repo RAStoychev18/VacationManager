@@ -1,6 +1,6 @@
 package com.rastoychev18.vacationmanager.api;
 
-import com.rastoychev18.vacationmanager.model.Person;
+import com.rastoychev18.vacationmanager.model.User;
 import com.rastoychev18.vacationmanager.service.PersonService;
 
 public class PersonController {
@@ -9,7 +9,7 @@ public class PersonController {
     public PersonController(PersonService personService) {
         this.personService = personService;
     }
-    public void addPerson(Person person){
+    public void addPerson(User person){
         personService.addPerson(person);
     }
 }
