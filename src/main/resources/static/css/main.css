@@ -2,9 +2,24 @@ h2{
     color: #ffffff
 }
 body {
-    background-image: url("https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80.jpg");
+    background-image: url("https://wallpaper.dog/large/445126.jpg");
 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    color: #ffffff;
+}
+.b1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.r1 {
+    text-align: center;
+}
+.form-submit-button {
+    background: #010f3d;
+    color: #fff;
+    border: 12px solid #010f3d;
+    border-radius: 20px;
+    text-shadow: none;
 }
